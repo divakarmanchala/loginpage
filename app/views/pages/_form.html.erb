@@ -1,0 +1,16 @@
+<div class="form-main-container">
+  <form action="/action_page.php">
+    <div class="first-name-container">
+      <label class="label" for="username">User Name:</label><br>
+      <input class="input" type="text" id="username" name="username" placeholder="User Name"><br>
+    </div>
+    <div class="password-name-container">
+      <label class="label" for="password">Password:</label><br>
+      <input class="input" type="password" id="password" name="password" placeholder="password"><br><br>
+    </div>
+    <div class="form-button-container">
+      <input class="submit-button" type="submit" value="Submit">
+      <%=link_to "Back", root_path, class: "back-link-button"%>
+    </div>
+  </form>
+</div>

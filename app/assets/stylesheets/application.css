@@ -1,0 +1,147 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS (and SCSS, if configured) file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+ body {
+   margin: 0px;
+   font-family: Arial;
+ }
+.application-main-container {
+  background-color: #4158D0;
+  background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+  height: 100vh;
+}
+ /* for login portal */
+.login-portal-main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.login-portal-card-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.login-portal-main-heading {
+  margin-bottom: 50px;
+  font-family: Arial;
+  text-align: center;
+}
+
+.login-portal-buttons-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-portal-link {
+  margin-bottom: 20px;
+  text-decoration: none;
+  background-color: #008CBA;
+  color: white;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 8px;
+  font-family: Arial;
+  cursor: pointer;
+  text-align: center;
+}
+
+/* for admin portal */
+.admin-main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+}
+.admin-sub-container {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+}
+.admin-login-heding {
+  margin-bottom: 20px;
+  margin-top: 10px;
+  font-size: 35px;
+  
+}
+/* for employee portal */
+
+
+/* for form */
+.form-main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.first-name-container {
+  margin-bottom: 15px;
+}
+
+.submit-button {
+  margin-bottom: 20px;
+  text-decoration: none;
+  background-color: #008CBA;
+  color: white;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border-radius: 8px;
+  font-family: Arial;
+  cursor: pointer;
+  text-align: center;
+  border: none;
+}
+.label {
+  font-weight: bold;
+  color: #635f55;
+  font-size: 12px;
+}
+.input {
+  border-radius: 3px;
+  border: 2px solid;
+  height: 22px;
+}
+
+.form-button-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.back-link-button {
+  margin-bottom: 20px;
+  text-decoration: none;
+  background-color: #555555;
+  color: white;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border-radius: 8px;
+  font-family: Arial;
+  cursor: pointer;
+  text-align: center;
+  border: none;
+}
